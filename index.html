@@ -18,15 +18,7 @@
         theme: {
           extend: {
             colors: {
-              primary_bg: "#f4f4f4",
-              primary_button_bg: "rgb(171, 239, 95)",
-              secondary_bg: "rgba(255, 255, 255, .1)",
-              button_bg_2: "rgba(171, 239, 95, 0.5)",
-              dec_color: "rgb(73, 73, 73)",
-              card_dec_color: "rgb(115, 115, 115)",
-              title_color: "rgb(33, 33, 33)",
-              accent: "#da373d",
-              body_neutral: "#da373d",
+              primary_color: "#FF4240",
             },
             fontFamily: {
               Poppins: "Poppins",
@@ -45,10 +37,114 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Google Font CDN added here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Internal CSS added here -->
     <style></style>
 
     <title>Hockey</title>
   </head>
-  <body class="w-full"></body>
+  <body class="w-full">
+    <!-- Header Section start from here -->
+    <header class="w-11/12 mx-auto mt-12">
+      <!-- NavBar section start from here -->
+      <nav>
+        <!-- Mobile menu start from here -->
+
+        <!-- Desktop Manu Bar -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li class="hover:text-red-500 duration-300 easy-in-out">
+                  <a>Home</a>
+                </li>
+                <li class="hover:text-red-500 duration-300 easy-in-out">
+                  <a>About</a>
+                </li>
+                <li class="hover:text-red-500 duration-300 easy-in-out">
+                  <a>Pages</a>
+                </li>
+                <li class="hover:text-red-500 duration-300 easy-in-out">
+                  <a>Blog</a>
+                </li>
+                <li class="hover:text-red-500 duration-300 easy-in-out">
+                  <a>Contact</a>
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost hover:bg-transparent text-3xl"
+              >Hockey<span>'</span>s</a
+            >
+          </div>
+          <!-- Desktop Menu Start from here -->
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-semibold text-xl">
+              <li
+                class="text-primary_color hover:text-red-500 duration-300 easy-in-out"
+              >
+                <a>Home</a>
+              </li>
+              <li class="hover:text-red-500 duration-300 easy-in-out">
+                <a>About</a>
+              </li>
+              <li class="hover:text-red-500 duration-300 easy-in-out">
+                <a>Pages</a>
+              </li>
+              <li class="hover:text-red-500 duration-300 easy-in-out">
+                <a>Blog</a>
+              </li>
+              <li class="hover:text-red-500 duration-300 easy-in-out">
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Login Button desktop and Mobile  -->
+          <div class="navbar-end space-x-4">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="btn bg-primary_color text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+      <!-- NavBar section end from here -->
+
+      <!-- Banner section start from here -->
+      <section></section>
+      <!-- Banner section end from here -->
+    </header>
+    <!-- Header Section end from here -->
+
+    <!-- Main Section start from here -->
+    <main></main>
+    <!-- Main Section end from here -->
+
+    <!-- Footer section start from here -->
+    <footer></footer>
+    <!-- Footer section end from here -->
+  </body>
 </html>
